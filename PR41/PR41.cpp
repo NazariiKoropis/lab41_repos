@@ -3,14 +3,10 @@
 
 int main() {
     double N, k, i;
-    std::cout << "Enter N and k: ";
-    std::cin >> N >> k;
-
-    // Перевірка коректності введених даних
-    if (k > N) {
-        std::cout << "k must be less than or equal to N!" << std::endl;
-        return 0;
-    }
+    std::cout << "Enter N: ";
+    std::cin >> N;
+	std::cout << "Enter k: ";
+	std::cin >> k;
 
     double S;
 
